@@ -1,0 +1,326 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    width: 100%;
+    background-color: #128c7e;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+
+}
+.navbar{
+display: flex;
+justify-content: space-around;
+}
+.first-image{
+    width: 100px;
+    height: 45px;
+}
+
+.first-image img{
+    align-items: left;
+    margin-left: 30px;
+}
+.first{
+    padding: 12px;
+}
+    
+.first a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    margin-right: 35px;
+    font-size: 16px;
+    justify-content:flex-end;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.first img{
+    width: 18px;
+    height: 18px;
+    color: white;
+}
+select{
+    background-color:#128c7e;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.container{
+    padding-top: 150px;
+
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+
+.left-container{
+  
+   
+    display: flex;
+    width: 394px;
+    height: 592px;
+    justify-content:center;
+    flex-direction: column;
+    margin-left: 24px;
+
+    
+   
+}
+.left-container h1{
+    
+    justify-content: center;
+    font-size: 30px;
+   
+}
+.left-container p{
+   font-size: 15px;
+    
+}
+
+.inner{
+    width: 100%;
+    color: black;
+  
+   
+
+}
+.inner h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    
+}
+.android{
+    color: #128c7e;
+    font-size: 18px;
+}
+.iPhone{
+    color: #128c7e;
+    font-size: 18px;
+}
+.mac{
+    color: #128c7e;
+    font-size: 18px;
+}
+.right-container{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.right-container{
+    width: 328px;
+    height: 572px;
+    margin-right: 50px;
+}
+.right-container img{
+    width: 309px;
+    height: 572px;
+    
+}
+.main{
+  margin-top: 200px;
+    padding: 0;;
+    display: flex;
+    justify-content:space-between;
+}
+
+.main1{
+    width: 625px;
+    height: 990px;
+    background-color:#c1dbd8;
+    
+    
+
+}
+.main1 h1{
+    font-size: 30px;
+    justify-content: center;
+    padding: 25px;
+    text-align: center;
+}
+.main1 p{
+    font-size: 18px;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 30px;
+    text-align: center;
+    
+}
+.mainimg{
+    width: 514px;
+    height: 631px;
+    display: flex;
+    justify-content: center;
+}
+.mainimg img{
+    width: 607px;
+    height: 643px;
+    padding: 132px;
+}
+
+
+.special1{
+background-color:#f2f6f7;
+width: 690px;
+height: 985px;
+display: flex;
+flex-direction: column;
+}
+.special2 img{
+    padding-top: 5px;
+   justify-content: center;
+   padding: 115px;
+}
+.special3 h3{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 15px;
+
+    
+}
+.special3 h1{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 40px;
+    padding: 10px;
+
+}
+.special3 p{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+button{
+    margin-top: 50px;
+    font-size: 15px;
+    border: 5px;
+    border-radius: 35px;
+   border: 1px solid #128c7e;
+    padding: 18px;
+    color: #128c7e;
+    background-color: white;
+    
+}
+footer{
+
+   
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 80vh;
+    
+   
+}
+
+.last{
+    
+    width: 1335px;
+    height: 452px;
+    background-color: #273443;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 100px;
+
+
+}
+
+.sec1{
+    width: 227;
+    height: 279;
+}
+.sec1 h1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+.sec1 p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+}
+.sec2{
+    width: 227;
+    height: 279;
+    color: white;
+
+}
+.sec2 p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+}
+.sec2 h1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+
+}
+.sec3{
+    width: 227;
+    height: 279;
+    color: white;
+
+}
+.sec3 h1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+.sec3 p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+}
+.sec4{
+    width: 227;
+    height: 279;
+    color: white;
+
+}
+.sec4 h1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+.sec4 p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+}
+.last1{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.last1 p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
